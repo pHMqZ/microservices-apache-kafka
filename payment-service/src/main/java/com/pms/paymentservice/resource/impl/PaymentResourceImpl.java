@@ -11,7 +11,7 @@ import com.pms.paymentservice.resource.PaymentResource;
 import com.pms.paymentservice.services.PaymentService;
 
 @RestController
-@RequestMapping(value = "/payment")
+@RequestMapping(value = "/payments")
 public class PaymentResourceImpl implements PaymentResource{
 
 	@Autowired
