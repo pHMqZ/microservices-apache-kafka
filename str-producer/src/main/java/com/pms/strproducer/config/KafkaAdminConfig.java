@@ -14,7 +14,7 @@ import org.springframework.kafka.core.KafkaAdmin;
 public class KafkaAdminConfig {
 
 	@Autowired
-	public KafkaProperties properties;
+	private KafkaProperties properties;
 	
 	@Bean
 	public KafkaAdmin kafkaAdmin() {

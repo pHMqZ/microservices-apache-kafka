@@ -16,7 +16,7 @@ import org.springframework.kafka.core.ProducerFactory;
 public class StringProducerFactoryConfig {
 
 	@Autowired
-	public KafkaProperties properties;
+	private KafkaProperties properties;
 	
 	@Bean
 	public ProducerFactory<String, String> producerFactory(){
